@@ -1,0 +1,102 @@
+/* CSS files add styling rules to your content */
+
+body {
+    font-family: helvetica, arial, sans-serif;
+    margin: 2em;
+    
+    font-size:50px;
+    text-align: center; 
+    color:white; 
+    
+  }
+  
+  
+  
+  top {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  flex1 {
+    flex: 33%;
+    background-color: red;
+   ;
+  }
+  
+  flex2 {
+    flex:33%;
+    background-color: red
+  }
+  
+  flex3 {
+    flex: 33%;
+    background-color: red;
+  }
+  
+  middle {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  flex4 {
+    flex: 50%;
+    background-color: orange;
+  }
+  flex5 {
+    flex: 25%;
+    background-color: orange; 
+  }
+  
+  flex6 {
+    flex: 25%;
+    background-color: orange;
+  }
+  
+  bottom {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  flex7 {
+    flex: 25%;
+    background-color: blue;
+  }
+  
+  flex8 {
+    flex: 50%;
+    background-color: blue;
+  }
+  
+  flex9 {
+    flex: 25%;
+    background-color: blue;
+  }
+
+
+  bottom2 {
+    display: flex;
+    flex-direction: row;
+  }
+
+    flex10 {
+      flex: 40%;
+      background-color: blue;
+    }
+    
+    flex11 {
+      flex: 30%;
+      background-color: blue;
+    }
+    
+    flex12 {
+      flex: 30%;
+      background-color: blue;
+    }
+  
+  
+  child{
+    
+    margin: 0px 5px 5px 0px;
+    height: 100px;
+    padding: 10px;
+  }
